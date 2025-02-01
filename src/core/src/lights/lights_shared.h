@@ -25,6 +25,10 @@ THE SOFTWARE.
 
 #include "../gpu_shared.h"
 
+#ifdef __cplusplus
+#include <algorithm>
+#endif
+
 enum LightType
 {
     kLight_Point = 0xFFF0FF80,
